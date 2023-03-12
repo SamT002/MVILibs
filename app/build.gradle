@@ -44,6 +44,12 @@ dependencies {
     implementation("org.orbit-mvi:orbit-core:$orbit_version")
     implementation("org.orbit-mvi:orbit-viewmodel:$orbit_version")
 
+    def mvi_kotlin_version = "3.1.0"
+    implementation ("com.arkivanov.mvikotlin:mvikotlin-extensions-coroutines:$mvi_kotlin_version>")
+    implementation ("com.arkivanov.mvikotlin:mvikotlin-main:$mvi_kotlin_version>")
+    implementation ("com.arkivanov.mvikotlin:mvikotlin:$mvi_kotlin_version>")
+    implementation ("com.arkivanov.mvikotlin:mvikotlin-logging:$mvi_kotlin_version>")
+
     implementation 'com.github.kirich1409:viewbindingpropertydelegate-full:1.5.8'
 
     def koin_version = "3.3.3"
